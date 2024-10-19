@@ -22,4 +22,12 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
   },
+  // En caso de hacer el import alias y usar eslint
+  // settings: {
+  //   'import/resolver': {
+  //     typescript: {
+  //       project: './tsconfig.json'
+  //     }
+  //   }
+  // }
 };
